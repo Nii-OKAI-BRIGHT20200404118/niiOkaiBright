@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/bg111.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo{
+    font-size: 30px;
+    color: white;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+span{
+    color: rgb(228, 3, 41);
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover{
+    background: rgb(228, 3, 41);
+    transition: 0.4s;
+}
+
+.btn{
+    color: white;
+    background: rgb(228, 3, 41);
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    transition: 0.4s;
+}
+
+.btn:hover{
+    transform: scale(1.2);
+}
+
+.content{
+    position: absolute;
+    top: 40%;
+    left: 8%;
+    transform: rotateY(-50%);
+}
+
+h1{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 70px;
+}
+
+h3{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+h4{
+    color: blueviolet;
+    letter-spacing: 3px;
+    font-size: 15px;
+}
+
+.newletter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+
+.newletter form input:first-child{
+    display: inline-block;
+    padding: 14px 190px 14px 15px;
+    margin: 2px solid rgb(228, 3, 41);
+    outline: none;
+    border-radius: 30px;
+}
+
+.newletter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    border: none;
+    outline: none;
+    padding: 10px 25px;
+    border-radius: 30px;
+    color: white;
+    background-color: rgb(228, 3, 41);
+    box-shadow: 0px 0px 5px #000, 0px 0px 10px white;
+    top: 6px;
+    right: 6px;
+}
+
+.about{
+    width: 100%;
+    padding: 100px 0;
+    background-color: #191919;
+}
+
+.about img{
+    width: auto;
+    height: 430px;
+}
+
+.about .about-text{
+
+    width: 550px;
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h2{
+    color: white;
+    font-size: 70px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.about-text h5{
+    color: white;
+    font-size: 25px;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+
+.about-text p{
+    color: #fcfc;
+    letter-spacing: 2px;
+    line-height: 25px;
+    font-size: 20px;
+    margin-bottom: 45px;
+}
+
+button{
+    background-color: rgb(228, 3, 41);
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: 0.4s;
+}
+
+button:hover{
+    background-color: #191919;
+    border: 2px solid rgb(228, 3, 41);
+    color: white;
+    cursor: pointer;
+}
+
+.service{
+    background-color: #101010;
+    width: 100%;
+    padding: 100px 0;
+}
+
+.title h2{
+    color: white;
+    font-size: 70px;
+    width: 1130px;
+    margin: 5px auto;
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background-color: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card i{
+    font-size: 60px;
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+    color: rgb(228, 3, 41);
+}
+
+h5{
+    font-size: 25px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.pra{
+    color: #fcfc;
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 25px;
+}
+
+.card .button{
+    background-color: rgb(228, 3, 41);
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 23px;
+    border-radius: 30px;
+    transition: 0.4s;
+}
+
+.card .button:hover{
+    background-color: #191919;
+    border: 2px solid rgb(228, 3, 41);
+    color: white;
+    cursor: pointer;
+}
+
+.contact-me{
+    width: 100%;
+    height: 290px;
+    background-color: #191919;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-me p{
+    color: white;
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.contact-me .button-two{
+    background-color: rgb(228, 3, 41);
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: 0.4s;
+}
+
+.contact-me .button-two:hover{
+    background-color: #191919;
+    border: 2px solid rgb(228, 3, 41);
+    color: white;
+    cursor: pointer;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .pra1{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+footer .pra2{
+    color: white;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+}
+
+.socials{
+    display: flex;
+}
+
+.socials a{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(228, 3, 41);
+    border-radius: 50px;
+    margin: 22px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.socials a:hover{
+    transform: scale(1.3);
+    transition: 0.3s;
+}
+
+.end{
+    position: absolute;
+    color: rgb(228, 3, 41);
+    bottom: 35px;
+    font-size: 15px;
+}
