@@ -70,7 +70,7 @@ nav ul li a:hover{
 
 .content{
     position: absolute;
-    top: 40%;
+    top: 25%;
     left: 8%;
     transform: rotateY(-50%);
 }
@@ -315,7 +315,7 @@ footer .pra1{
 footer .pra2{
     color: white;
     font-size: 17px;
-    width: 500px;
+    width: 600px;
     text-align: center;
     line-height: 26px;
 }
@@ -345,6 +345,8 @@ footer .pra2{
 
 .end{
     position: absolute;
+    align-items: center;
+    justify-content: center;
     color: rgb(228, 3, 41);
     bottom: 35px;
     font-size: 15px;
